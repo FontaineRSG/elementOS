@@ -1,9 +1,0 @@
-Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_6_ARG passed with the following output:
-Change Dir: '/shared/elementOS/packages/core/libevent/build/CMakeFiles/CMakeTmp'
-
-Run Build Command(s): /usr/bin/ninja -v cmTC_d79b9
-[1/2] /usr/bin/cc -D_GNU_SOURCE  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -Wundef -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -o CMakeFiles/cmTC_d79b9.dir/CheckPrototypeDefinition.c.o -c /shared/elementOS/packages/core/libevent/build/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
-[2/2] : && /usr/bin/cc -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -Wundef -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -rdynamic CMakeFiles/cmTC_d79b9.dir/CheckPrototypeDefinition.c.o -o cmTC_d79b9   && :
-
-
-
