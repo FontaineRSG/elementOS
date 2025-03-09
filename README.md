@@ -54,7 +54,7 @@ We welcome fellow bored programmers!
 
 ## 📜 License
 
-Distributed under **GPL-3.0 License**. See [LICENSE](https://LICENSE) for details.  
+Distributed under **GPL-3.0 License**. See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.html) for details.  
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
