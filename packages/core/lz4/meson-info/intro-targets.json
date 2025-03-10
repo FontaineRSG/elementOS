@@ -1,0 +1,1190 @@
+[
+  {
+    "name": "lz4",
+    "id": "db68076@@lz4@sha",
+    "type": "shared library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/lib/liblz4.so.1.10.0"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/lib/liblz4.so.1.10.0.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/lib",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib",
+          "-fvisibility=hidden",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-fPIC"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4frame.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4hc.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/xxhash.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,liblz4.so.1"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/usr/lib/x86_64-linux-gnu/liblz4.so.1.10.0",
+      "/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+      "/usr/lib/x86_64-linux-gnu/liblz4.so"
+    ]
+  },
+  {
+    "name": "lz4-internal",
+    "id": "db68076@@lz4-internal@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/lib/liblz4-internal.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "compress_frame_fuzzer",
+    "id": "30bada1@@compress_frame_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libcompress_frame_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libcompress_frame_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/compress_frame_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "compress_frame_fuzzer",
+    "id": "30bada1@@compress_frame_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/compress_frame_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/compress_frame_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libcompress_frame_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "compress_fuzzer",
+    "id": "30bada1@@compress_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libcompress_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libcompress_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/compress_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "compress_fuzzer",
+    "id": "30bada1@@compress_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/compress_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/compress_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libcompress_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "compress_hc_fuzzer",
+    "id": "30bada1@@compress_hc_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libcompress_hc_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libcompress_hc_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/compress_hc_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "compress_hc_fuzzer",
+    "id": "30bada1@@compress_hc_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/compress_hc_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/compress_hc_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libcompress_hc_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "decompress_frame_fuzzer",
+    "id": "30bada1@@decompress_frame_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libdecompress_frame_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libdecompress_frame_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/decompress_frame_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "decompress_frame_fuzzer",
+    "id": "30bada1@@decompress_frame_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/decompress_frame_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/decompress_frame_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libdecompress_frame_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "decompress_fuzzer",
+    "id": "30bada1@@decompress_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libdecompress_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libdecompress_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/decompress_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "decompress_fuzzer",
+    "id": "30bada1@@decompress_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/decompress_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/decompress_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libdecompress_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "round_trip_frame_uncompressed_fuzzer",
+    "id": "30bada1@@round_trip_frame_uncompressed_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/round_trip_frame_uncompressed_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "round_trip_frame_uncompressed_fuzzer",
+    "id": "30bada1@@round_trip_frame_uncompressed_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_frame_uncompressed_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_frame_uncompressed_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "round_trip_fuzzer",
+    "id": "30bada1@@round_trip_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/round_trip_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "round_trip_fuzzer",
+    "id": "30bada1@@round_trip_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libround_trip_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "round_trip_hc_fuzzer",
+    "id": "30bada1@@round_trip_hc_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_hc_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_hc_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/round_trip_hc_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "round_trip_hc_fuzzer",
+    "id": "30bada1@@round_trip_hc_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_hc_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_hc_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libround_trip_hc_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  },
+  {
+    "name": "round_trip_stream_fuzzer",
+    "id": "30bada1@@round_trip_stream_fuzzer@sta",
+    "type": "static library",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_stream_fuzzer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/libround_trip_stream_fuzzer.a.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-fPIC",
+          "-DLZ4_DISTANCE_MAX=65535",
+          "-Wno-unused-function",
+          "-Wno-sign-compare",
+          "-Wno-declaration-after-statement"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/round_trip_stream_fuzzer.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/lz4_helpers.c",
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/fuzz_data_producer.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "gcc-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "round_trip_stream_fuzzer",
+    "id": "30bada1@@round_trip_stream_fuzzer@exe",
+    "type": "executable",
+    "defined_in": "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/meson.build",
+    "filename": [
+      "/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_stream_fuzzer"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz/round_trip_stream_fuzzer.p",
+          "-I/home/cv2/elementOS/packages/core/lz4/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz",
+          "-I/var/dendro/lz4/buildroot/lz41.10.0/lib",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c99",
+          "-DXXH_NAMESPACE=LZ4_",
+          "-DLZ4_DISTANCE_MAX=65535"
+        ],
+        "sources": [
+          "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz/../../../../ossfuzz/standaloneengine.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "meson/ossfuzz/libround_trip_stream_fuzzer.a",
+          "meson/lib/liblz4-internal.a",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "dep22838479514349343529977796845874887013"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": false
+  }
+]

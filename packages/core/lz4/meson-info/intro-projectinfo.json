@@ -1,0 +1,10 @@
+{
+  "version": "1.10.0",
+  "descriptive_name": "lz4",
+  "license": [
+    "BSD-2-Clause-Patent AND GPL-2.0-or-later"
+  ],
+  "license_files": [],
+  "subproject_dir": "subprojects",
+  "subprojects": []
+}

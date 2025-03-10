@@ -1,0 +1,163 @@
+Build started at 2025-03-10T13:44:20.738967
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/usr -Dbuildtype=plain
+Python system: Linux
+The Meson build system
+Version: 1.7.0
+Source dir: /var/dendro/lz4/buildroot/lz41.10.0/build/meson
+Build dir: /home/cv2/elementOS/packages/core/lz4
+Build type: native build
+Program GetLz4LibraryVersion.py found: YES (/usr/bin/python3 /var/dendro/lz4/buildroot/lz41.10.0/build/meson/GetLz4LibraryVersion.py)
+Running command: /usr/bin/python3 /var/dendro/lz4/buildroot/lz41.10.0/build/meson/GetLz4LibraryVersion.py ../../lib/lz4.h
+--- stdout ---
+1.10.0
+
+--- stderr ---
+
+
+Project name: lz4
+Project version: 1.10.0
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Debian 14.2.0-17) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 14.2.0
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9qgw1y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/cv2/elementOS/packages/core/lz4/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 14.2.0 "cc (Debian 14.2.0-17) 14.2.0")
+C linker for the host machine: cc ld.bfd 2.44
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Debian 14.2.0-17) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 14.2.0
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ0FSA1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/cv2/elementOS/packages/core/lz4/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 14.2.0 "cc (Debian 14.2.0-17) 14.2.0")
+C linker for the build machine: cc ld.bfd 2.44
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Debian) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 1.8.1
+Running compile:
+Working directory:  /home/cv2/elementOS/packages/core/lz4/meson-private/tmpt09oll00
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/cv2/elementOS/packages/core/lz4/meson-private/tmpt09oll00/testfile.c -o /home/cv2/elementOS/packages/core/lz4/meson-private/tmpt09oll00/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-function -Wno-unused-function` -> 0
+Compiler for C supports arguments -Wno-unused-function: YES 
+Running compile:
+Working directory:  /home/cv2/elementOS/packages/core/lz4/meson-private/tmp656w7xpe
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/cv2/elementOS/packages/core/lz4/meson-private/tmp656w7xpe/testfile.c -o /home/cv2/elementOS/packages/core/lz4/meson-private/tmp656w7xpe/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare -Wno-sign-compare` -> 0
+Compiler for C supports arguments -Wno-sign-compare: YES 
+Running compile:
+Working directory:  /home/cv2/elementOS/packages/core/lz4/meson-private/tmp5w3fnurb
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/cv2/elementOS/packages/core/lz4/meson-private/tmp5w3fnurb/testfile.c -o /home/cv2/elementOS/packages/core/lz4/meson-private/tmp5w3fnurb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement -Wno-declaration-after-statement` -> 0
+Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+Build targets in project: 20
+
+lz4 1.10.0
+
+  User defined options
+    buildtype: plain
+    prefix   : /usr
+
+Found ninja-1.12.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/cv2/elementOS/packages/core/lz4/meson-private/tmpi4ndt7pf
+Code:
+
+-----------
+Command line: `cc /home/cv2/elementOS/packages/core/lz4/meson-private/tmpi4ndt7pf/testfile.c -o /home/cv2/elementOS/packages/core/lz4/meson-private/tmpi4ndt7pf/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/14/
+programs: =/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/14/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/14/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+-----------

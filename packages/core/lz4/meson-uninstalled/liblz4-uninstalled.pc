@@ -1,0 +1,11 @@
+prefix=/home/cv2/elementOS/packages/core/lz4
+includedir=${prefix}/include
+libdir=${prefix}/lib/x86_64-linux-gnu
+srcdir=/var/dendro/lz4/buildroot/lz41.10.0/build/meson
+
+Name: lz4
+Description: extremely fast lossless compression algorithm library
+URL: http://www.lz4.org/
+Version: 1.10.0
+Libs: -L${prefix}/meson/lib -llz4
+Cflags: -I${prefix}/meson/lib -I${srcdir}/meson/lib

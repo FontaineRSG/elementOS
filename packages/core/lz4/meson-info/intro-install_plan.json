@@ -1,0 +1,34 @@
+{
+  "targets": {
+    "/home/cv2/elementOS/packages/core/lz4/meson/lib/liblz4.so.1.10.0": {
+      "destination": "{libdir_shared}/liblz4.so.1.10.0",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    }
+  },
+  "data": {
+    "/home/cv2/elementOS/packages/core/lz4/meson-private/liblz4.pc": {
+      "destination": "{libdir}/pkgconfig/liblz4.pc",
+      "tag": "devel",
+      "subproject": null
+    }
+  },
+  "headers": {
+    "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4.h": {
+      "destination": "{includedir}/lz4.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4hc.h": {
+      "destination": "{includedir}/lz4hc.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4frame.h": {
+      "destination": "{includedir}/lz4frame.h",
+      "tag": "devel",
+      "subproject": null
+    }
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/lib/liblz4.so.1.10.0.p -Imeson/lib -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -fPIC -MD -MQ meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4.c.o -MF meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4.c.o.d -o meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/lz4.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/lz4.c",
+    "output": "meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/lib/liblz4.so.1.10.0.p -Imeson/lib -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -fPIC -MD -MQ meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4frame.c.o -MF meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4frame.c.o.d -o meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4frame.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/lz4frame.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/lz4frame.c",
+    "output": "meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4frame.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/lib/liblz4.so.1.10.0.p -Imeson/lib -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -fPIC -MD -MQ meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4hc.c.o -MF meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4hc.c.o.d -o meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4hc.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/lz4hc.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/lz4hc.c",
+    "output": "meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_lz4hc.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/lib/liblz4.so.1.10.0.p -Imeson/lib -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -fPIC -MD -MQ meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_xxhash.c.o -MF meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_xxhash.c.o.d -o meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_xxhash.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/xxhash.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib/xxhash.c",
+    "output": "meson/lib/liblz4.so.1.10.0.p/.._.._.._.._lib_xxhash.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_frame_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_compress_frame_fuzzer.c.o -MF meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_compress_frame_fuzzer.c.o.d -o meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_compress_frame_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/compress_frame_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/compress_frame_fuzzer.c",
+    "output": "meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_compress_frame_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_frame_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_frame_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libcompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/compress_frame_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/compress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/compress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/compress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/compress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_compress_fuzzer.c.o -MF meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_compress_fuzzer.c.o.d -o meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_compress_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/compress_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/compress_fuzzer.c",
+    "output": "meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_compress_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libcompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/compress_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/compress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/compress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/compress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/compress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_hc_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_compress_hc_fuzzer.c.o -MF meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_compress_hc_fuzzer.c.o.d -o meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_compress_hc_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/compress_hc_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/compress_hc_fuzzer.c",
+    "output": "meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_compress_hc_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_hc_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libcompress_hc_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libcompress_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/compress_hc_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/compress_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/compress_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/compress_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/compress_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libdecompress_frame_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_frame_fuzzer.c.o -MF meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_frame_fuzzer.c.o.d -o meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_frame_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/decompress_frame_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/decompress_frame_fuzzer.c",
+    "output": "meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_frame_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libdecompress_frame_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libdecompress_frame_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libdecompress_frame_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/decompress_frame_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/decompress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/decompress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/decompress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/decompress_frame_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libdecompress_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_fuzzer.c.o -MF meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_fuzzer.c.o.d -o meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/decompress_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/decompress_fuzzer.c",
+    "output": "meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_decompress_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libdecompress_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libdecompress_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libdecompress_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/decompress_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/decompress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/decompress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/decompress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/decompress_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_frame_uncompressed_fuzzer.c.o -MF meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_frame_uncompressed_fuzzer.c.o.d -o meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_frame_uncompressed_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_frame_uncompressed_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_frame_uncompressed_fuzzer.c",
+    "output": "meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_frame_uncompressed_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libround_trip_frame_uncompressed_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/round_trip_frame_uncompressed_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/round_trip_frame_uncompressed_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/round_trip_frame_uncompressed_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/round_trip_frame_uncompressed_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/round_trip_frame_uncompressed_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_fuzzer.c.o -MF meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_fuzzer.c.o.d -o meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_fuzzer.c",
+    "output": "meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libround_trip_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/round_trip_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/round_trip_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/round_trip_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/round_trip_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/round_trip_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_hc_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_hc_fuzzer.c.o -MF meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_hc_fuzzer.c.o.d -o meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_hc_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_hc_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_hc_fuzzer.c",
+    "output": "meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_hc_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_hc_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_hc_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libround_trip_hc_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/round_trip_hc_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/round_trip_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/round_trip_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/round_trip_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/round_trip_hc_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_stream_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_stream_fuzzer.c.o -MF meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_stream_fuzzer.c.o.d -o meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_stream_fuzzer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_stream_fuzzer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/round_trip_stream_fuzzer.c",
+    "output": "meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_round_trip_stream_fuzzer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_stream_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -MF meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o.d -o meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/lz4_helpers.c",
+    "output": "meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_lz4_helpers.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/libround_trip_stream_fuzzer.a.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -fPIC -DLZ4_DISTANCE_MAX=65535 -Wno-unused-function -Wno-sign-compare -Wno-declaration-after-statement -MD -MQ meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -MF meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o.d -o meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/fuzz_data_producer.c",
+    "output": "meson/ossfuzz/libround_trip_stream_fuzzer.a.p/.._.._.._.._ossfuzz_fuzz_data_producer.c.o"
+  },
+  {
+    "directory": "/home/cv2/elementOS/packages/core/lz4",
+    "command": "cc -Imeson/ossfuzz/round_trip_stream_fuzzer.p -Imeson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/ossfuzz -I../../../../../../var/dendro/lz4/buildroot/lz41.10.0/lib -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -DXXH_NAMESPACE=LZ4_ -DLZ4_DISTANCE_MAX=65535 -MD -MQ meson/ossfuzz/round_trip_stream_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -MF meson/ossfuzz/round_trip_stream_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o.d -o meson/ossfuzz/round_trip_stream_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o -c ../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "file": "../../../../../../var/dendro/lz4/buildroot/lz41.10.0/ossfuzz/standaloneengine.c",
+    "output": "meson/ossfuzz/round_trip_stream_fuzzer.p/.._.._.._.._ossfuzz_standaloneengine.c.o"
+  }
+]

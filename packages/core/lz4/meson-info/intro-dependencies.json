@@ -1,0 +1,46 @@
+[
+  {
+    "name": "dep295874742888975441981816656413354649465",
+    "type": "internal",
+    "version": "1.10.0",
+    "compile_args": [
+      "-DLZ4_DISTANCE_MAX=65535"
+    ],
+    "link_args": [],
+    "include_directories": [
+      "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib",
+      "/home/cv2/elementOS/packages/core/lz4/meson/lib/../../../../lib"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "db68076@@lz4@sha"
+    ],
+    "meson_variables": [
+      "liblz4_dep"
+    ]
+  },
+  {
+    "name": "dep22838479514349343529977796845874887013",
+    "type": "internal",
+    "version": "1.10.0",
+    "compile_args": [
+      "-DLZ4_DISTANCE_MAX=65535"
+    ],
+    "link_args": [],
+    "include_directories": [
+      "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib",
+      "/home/cv2/elementOS/packages/core/lz4/meson/lib/../../../../lib"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "db68076@@lz4-internal@sta"
+    ],
+    "meson_variables": [
+      "liblz4_internal_dep"
+    ]
+  }
+]

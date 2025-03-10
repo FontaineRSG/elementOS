@@ -1,0 +1,9 @@
+{
+  "/home/cv2/elementOS/packages/core/lz4/meson/lib/liblz4.so.1.10.0": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.10.0",
+  "/home/cv2/elementOS/packages/core/lz4/meson-private/liblz4.pc": "/usr/lib/x86_64-linux-gnu/pkgconfig/liblz4.pc",
+  "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4.h": "/usr/include/lz4.h",
+  "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4hc.h": "/usr/include/lz4hc.h",
+  "/var/dendro/lz4/buildroot/lz41.10.0/build/meson/meson/lib/../../../../lib/lz4frame.h": "/usr/include/lz4frame.h",
+  "liblz4.so.1": "/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+  "liblz4.so": "/usr/lib/x86_64-linux-gnu/liblz4.so"
+}
